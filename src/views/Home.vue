@@ -117,7 +117,7 @@
        Inden for mit uddannelse, intressere mig mest for at arbejde med 
        <strong>content creation</strong>, <strong>webdesign</strong> og <strong>webudvikling</strong>.
     </p>
-    <p>Content creation giver liv og styrker et hvert virksomhed. Jeg synes at <strong>relevant og nyt content</strong> er
+    <p>Content creation giver liv og styrke til et hvert virksomhed. Jeg synes at <strong>relevant og nyt content</strong> er
       ligeså vigtigt for en virksomhed, som <strong>blod for mennesket</strong>. Blod skal være frisk og altid køre rundt i kroppen på den rigtig
       måde for at mennesket kan være sund og rask, og det samme gælder for en virksomhed som skal have nyt og frisk content de kan 
       <strong>markedsføre</strong> sig med. 

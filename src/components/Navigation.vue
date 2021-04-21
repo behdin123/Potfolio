@@ -6,7 +6,7 @@
       </router-link>
     </div>
     <div class="navbar-links">
-      <router-link to="/MIN CONCEPT">MIN KONCEPT</router-link>
+      <router-link to="/MIN CONCEPT">MIT KONCEPT</router-link>
       <router-link to="/VIDEO">VIDEO</router-link>
       <router-link to="/ART WORKS">ART WORKS</router-link>
       <router-link to="/OM MIG">OM MIG</router-link>
@@ -41,7 +41,7 @@
   }
   .navbar-links {
     display: flex;
-    margin-left: 95px;
+    margin-left: 115px;
     a {
       font-family: Arial, Helvetica, sans-serif;
       padding: 0 3vw;
