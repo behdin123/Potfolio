@@ -11,12 +11,12 @@ const routes = [
     component: Home
   },
   {
-    path: '/MIN CONCEPT',
-    name: 'MIN CONCEPT',
+    path: '/MIN-CONCEPT',
+    name: 'MIN-CONCEPT',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/MIN CONCEPT.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/MIN-CONCEPT.vue')
   },
   {
     path: '/VIDEO',
@@ -24,14 +24,14 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/VIDEO.vue')
   },
   {
-    path: '/ART WORKS',
-    name: 'ART WORKS',
-    component: () => import(/* webpackChunkName: "about" */ '../views/ART WORKS.vue')
+    path: '/ART-WORKS',
+    name: 'ART-WORKS',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ART-WORKS.vue')
   },
   {
-    path: '/OM MIG',
-    name: 'OM MIG',
-    component: () => import(/* webpackChunkName: "about" */ '../views/OM MIG.vue')
+    path: '/OM-MIG',
+    name: 'OM-MIG',
+    component: () => import(/* webpackChunkName: "about" */ '../views/OM-MIG.vue')
   }
 ]
 

@@ -9,11 +9,13 @@
     h1{
     color: #5A081E;
     margin: 0 0 10px 0;
+    
     }
     p{
       color: #2d2d2d;
       font-size: 14px;
       line-height: 22.4px;
+      letter-spacing: 0.2px;
     }
   }
     .h2{
@@ -21,6 +23,7 @@
         font-size: 18px;
         margin: 10px 0 10px 0;
         color: #000;
+        letter-spacing: 0.3px;
       }
       h3{
         color: #000;
@@ -44,6 +47,30 @@
       }
 }
 
+.btn{
+    background: #24353F;
+    color: #D9C4A9;
+    border-radius: 50px;
+    width: 220px;
+    height: 60px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .btn:hover{
+    background: transparent;
+    border: solid 3px #24353F;
+    color: #24353F;
+  }
+
+  .line{
+    content: "";
+    background: #24353F;
+    height: 1px;
+    width: 76%;
+    margin: 40px auto;
+  }
+
 @media only screen and (max-width: 1380px){
     .bg-img{
         height: 53.5vw !important;
@@ -53,11 +80,26 @@
     .bg-img{
         height: 61.5vw !important;
     }
+    .btn-box{
+        .btn{
+        width: 180px;
+        height: 50px;
+        font-size: 16px;
+        margin-top: 30px;
+      }
+    }
 }
 @media only screen and (max-width: 1120px){
     .bg-img{
         height: 69.5vw !important;
     }
+    .btn-box{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        padding-bottom: 20px;
+        width: 800px;
+        }
 }
 @media only screen and (max-width: 940px){
     .bg-img{
@@ -66,6 +108,13 @@
             font-size: 45px !important;
           }
     }
+    .btn-box{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start !important;
+        padding-bottom: 5px;
+        width: 680px;
+        }
 }
 @media only screen and (max-width: 780px){
     .bg-img{

@@ -1,37 +1,108 @@
 <template>
-  <div class="navbar">
+  <div class="navbar" >
     <div class="logo">
       <router-link to="/">
-        <img src="../../../billeder/final-logo.png" width="90px" height="90px"/>
+        <img v-if="dark == false || dark == null"  class="logo-img" src="../assets/final-logo-light.png" width="90px" height="90px"/>
+        <img v-else class="logo-img" src="../assets/Behdin Bagheri logo (PNG).png" width="90px" height="90px"/>
       </router-link>
     </div>
-    <div class="navbar-links">
-      <router-link to="/MIN CONCEPT">MIT KONCEPT</router-link>
-      <router-link to="/VIDEO">VIDEO</router-link>
-      <router-link to="/ART WORKS">ART WORKS</router-link>
-      <router-link to="/OM MIG">OM MIG</router-link>
+    <div class="justify">
+      <div class="navbar-links">
+        <router-link to="/MIN-CONCEPT">Mit Koncept</router-link>
+        <router-link to="/VIDEO">Video</router-link>
+        <router-link to="/ART-WORKS">Art Works</router-link>
+        <router-link to="/OM-MIG">Om Mig</router-link>
+      </div>
     </div>
     <div class="navbar-others">
-      <label class="switch">
-        <input type="checkbox" />
+        <label class="switch">
+        <input v-on:click="changeTitle" type="checkbox" v-model="dMode" />
         <span class="slider round"></span>
       </label>
       <div class="nav-icons">
         <div class="line"></div>
-          <img class="icon" src="../../../icons/instagram(nav).svg" width="23px" height="23px">
-          <img class="facebook" src="../../../icons/facebook(nav).svg" width="23px" height="23px">
+          <a v-if="dark == false || dark == null" href="https://www.instagram.com/behdin_b/" target="_blank"><img class="icon" src="../assets/icons/instagram(nav).svg" width="23px" height="23px"></a>
+          <a v-else href="https://www.instagram.com/behdin_b/" target="_blank"><img  class="icon" src="../assets/icons/instagram-nav-dark-version.svg" width="23px" height="23px"></a>
+
+          <a v-if="dark == false || dark == null" href="https://www.facebook.com/behdin.bagheri/" target="_blank"><img  class="icon facebook" src="../assets/icons/facebook(nav).svg" width="23px" height="23px"></a>
+          <a v-else href="https://www.facebook.com/behdin.bagheri/" target="_blank"><img class="icon facebook" src="../assets/icons/facebook-nav-dark-version.svg" width="23px" height="23px"></a>
         <div class="line"></div>
       </div>
-      <img class="icon" src="../../../icons/world.svg" width="23px" height="23px">
+      <img v-if="dark == false || dark == null" class="icon" src="../assets/icons/world.svg" width="23px" height="23px">
+      <img v-else class="icon" src="../assets/icons/world-nav-dark-version.svg" width="23px" height="23px">
       <div class="toggel-btn">
-      <img class="icon toggle-menu" src="../assets/toggel-menu.svg" width="23px" height="23px">
+      <img v-if="dark == false || dark == null" class="icon toggle-menu" src="../assets/toggel-menu.svg" width="23px" height="23px">
+      <img v-else class="icon toggle-menu" src="../assets/toggel-menu dark-version.svg" width="23px" height="23px">
     </div>
     </div>
   </div>
 </template>
 
+<script>
+
+// dark mode
+export default {
+  component: {
+    
+  },
+  props: {
+      title: {
+        type: Boolean,
+        required: false
+      },
+      dark: {}
+    },
+  data() {
+    return {
+      dMode: this.$props.dark
+    }
+  },
+  methods: {
+    
+        changeTitle() {
+          console.log("test")
+          this.$emit('changeTitle', this.dMode = !this.dMode );
+       
+    
+      },
+    },
+
+  // menu mobile version
+   mounted() {
+        const burger = document.querySelector('.toggel-btn');
+        const nav = document.querySelector('.justify');
+
+        console.log(burger)
+        burger.addEventListener('click', () => {
+          nav.classList.toggle('show');
+          if (nav.matches('.show')) {
+            nav.classList.remove("end")
+             nav.style.setProperty("display", "flex", "important");
+          }
+          else {
+             nav.classList.add("end")
+             setTimeout(() => {
+              nav.style
+              .setProperty("display", "none", "important");
+             }, 2000);
+          }
+        });
+
+        const navLinks = document.querySelectorAll(".justify a");
+        navLinks.forEach(n => {
+          n.addEventListener("click", () => {
+            nav.classList.toggle("show");
+          })
+        });
+   }
+  
+}
+ 
+
+</script>
 
 <style scoped lang="scss">
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
 .navbar {
   display: flex;
   align-items: center;
@@ -48,10 +119,17 @@
       font-size: 14px;
       text-decoration: none;
       color: #000;
+      letter-spacing: 0.5px;
     }
   }
   .toggel-btn{
     display: none;
+  }
+
+  a:after{
+    content: "";
+    position: absolute;
+    background-color: white;
   }
   
   .navbar-others{
@@ -80,6 +158,18 @@
           background: #5A081E;
       }
   }
+}
+
+
+
+.icon:hover{
+opacity: 0.5;
+}
+.icon:visited{
+opacity: 0.5;
+}
+.icon:active{
+opacity: 0.5;
 }
 
 .switch {
@@ -145,6 +235,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+
 @media only screen and (max-width: 1120px){
   #nav{
     .line{
@@ -166,14 +257,64 @@ input:checked + .slider:before {
 }
 
 @media only screen and (max-width: 780px){
-  .navbar-links{
+  .justify{
+    width: 100%;
+    height: 450px;
+    top: 130px;
+    position: absolute;
     display: none !important;
+    justify-content: center;
+    padding: 80px 0 0 0;
+    background: #24353F !important;
+    animation-name: toggleMenu;
+    animation-duration: 2s;
   }
+
+
+  .show{
+    display: flex !important;
+    animation-name: toggleMenu;
+    animation-duration: 2s;
+  }
+  .end{
+    
+    animation-name: toggleMenuEnd;
+    animation-duration: 2s;
+    display: flex !important ;
+  }
+
+  @keyframes toggleMenu {
+  from {opacity: 0; height: 50px;}
+  to {opacity: 1; height: 450px;}
+  }
+    @keyframes toggleMenuEnd {
+  from {opacity: 1; height: 450px;}
+  to {opacity: 0; height: 50px; }
+  }
+
+  .navbar-links{
+    flex-direction: column;
+    text-align: center;
+    
+    a{
+      padding-bottom: 80px !important;
+      color: #EAEAEA !important; 
+      font-size: 16px !important;
+    }
+  }
+  
   .toggel-btn{
     display: flex !important;
   }
   .icon{
     margin: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 525px){
+  .logo-img{
+    width: 75px;
+    height: 75px;
   }
 }
 

@@ -1,27 +1,28 @@
 <template>
   <div class="home">
-    <div class="bg-img img">
-      <h1>Digital Content</h1>
-      <h2>eller webudvikling</h2>
-      <h3>lad os skabe det sammen</h3>
+    <div id="image-dark-version-home" class="bg-img img">
+      <h1 data-aos="fade-right" data-aos-duration="3000">Digital Content</h1>
+      <h2 data-aos="fade-right" data-aos-duration="3000">eller webudvikling</h2>
+      <h3 data-aos="fade-right" data-aos-duration="3000">lad os skabe det sammen</h3>
       
     </div>
-    <div class="container Multimediedesigner">
+    <div class="container Multimediedesigner first-mode">
       <div class="webmock">
-        <img class="first-img" src="../../../billeder/webmock.png" width="100%" height="auto">
-        <img class="second-img" src="../assets/PSD 10 (Desktop, Laptop, and Tablet).png" width="100%" height="auto">
+        <img data-aos="fade-right" data-aos-duration="1000" data-aos-offset="400" class="first-img" src="../../../billeder/webmock.png" width="100%" height="auto">
+        <img data-aos="fade-up" data-aos-duration="1000" data-aos-offset="40" class="second-img" src="../assets/PSD 10 (Desktop, Laptop, and Tablet).png" width="100%" height="auto">
       </div>
-      <div class="txt h1 h2 first-txt"> 
-            <h3>Hvad betyder det helt præcist?</h3>
-            <h1>Multimediedesigner</h1>
-            <p>Som en Multimediedesigner er jeg i stand til at komme ind på 
+      <div class="txt h1 h2 first-txt" > 
+            <h3 data-aos="fade-up" data-aos-duration="1000" >Hvad betyder det helt præcist?</h3>
+            <h1 data-aos="fade-up" data-aos-duration="1000" >Multimediedesigner</h1>
+            <p  data-aos="fade-up" data-aos-duration="1000" >Som en Multimediedesigner er jeg i stand til at komme ind på 
               alle niveauer af digital design, heriblandt webløsninger <br>
               <strong>digitale brugeroplevelser (UX)</strong>, <strong>indholdsproduktion (content creation)</strong> <br>
               til digitale medier, <strong>frontend webudvikling</strong> samt <strong>ideudvikling og projektmanagement</strong> 
             </p>
           <div id="uix" class="container">
-              <div class="ui-ux ui">
-                  <div><img src="../../../icons/monitor.svg" width="100px" height="auto"></div>
+              <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" class="ui-ux ui">
+                  <div v-if="dark == false || dark == null" ><img src="../assets/icons/monitor.svg" width="100px" height="auto"></div>
+                  <div v-else><img src="../assets/icons/monitor-dark-version.svg" width="100px" height="auto"></div>
                   <div><h2>User Interface (UI)</h2></div>
                   <div class="ui-x-txt">
                       <p>Skærme, websider, og visuelle ellementer som knapper og 
@@ -30,8 +31,9 @@
                       </p>
                   </div>
               </div>
-              <div class="ui-ux ux">
-                  <div><img src="../../../icons/ux.svg" width="80px" height="auto"></div>
+              <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" class="ui-ux ux">
+                  <div v-if="dark == false || dark == null"><img src="../assets/icons/ux.svg" width="80px" height="auto"></div>
+                  <div v-else><img src="../assets/icons/ux-dark-version.svg" width="80px" height="auto"></div>
                   <div><h2>User Experience (UX)</h2></div>
                   <div class="ui-x-txt">
                           <p>At opfylde <strong>brugerens behov</strong>, er det vigtigste inden for 
@@ -44,8 +46,8 @@
       </div>
     </div>
 
-    <div class="container min-concept flex-direction">
-            <div class="txt h1 h2 txt-box">
+    <div class="container min-concept flex-direction second-mode">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="450" class="txt h1 h2 txt-box">
               <div>
                   <h3>Hvordan kan jeg skabe opmærksomhed og resultat for dig og din virksomhed?</h3>
                   <h1>Den gyldne trekant!</h1>
@@ -65,21 +67,24 @@
               </div>
             </div>
 
-            <div class="gyldne-trekant image"><img src="../../../billeder/gyldne-trekant-(fin).jpg" width="100%" height="auto"></div>
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="450" class="gyldne-trekant image"><img src="../../../billeder/gyldne-trekant-(fin).jpg" width="100%" height="auto"></div>
     </div>
 
-<div class="contain">
+<div class="contain first-mode">
     <div class="informations h1">
-      <div class="info">
-        <img src="../../../billeder/procent.png" width="150px" height="auto">
+      <div  data-aos="fade-up" data-aos-duration="2000" data-aos-offset="400" class="info">
+        <img v-if="dark == false || dark == null" src="../assets/procent.png" width="150px" height="auto">
+        <img v-else src="../assets/procent dark-version.png" width="150px" height="auto">
         <p>Af den danske befolkning mellem 16-89 år <strong>bruger de sociale medier</strong></p>
       </div>
-      <div class="info">
-        <img src="../../../billeder/SoMe.png" width="150px" height="auto">
+      <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="400" class="info">
+        <img v-if="dark == false || dark == null" src="../assets/SoMe.png" width="150px" height="auto">
+         <img v-else src="../assets/SoMe dark-version.png" width="150px" height="auto">
         <p><strong>SEO og de Sociale medier</strong> er de 2 vigtigste ellementer for at få flere besøgende på din webside</p>
       </div>
-      <div class="info">
-        <img src="../../../billeder/Video.png" width="150px" height="auto">
+      <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="400" class="info">
+        <img v-if="dark == false || dark == null" src="../assets/Video.png" width="150px" height="auto">
+        <img v-else src="../assets/Video-dark-version.png" width="150px" height="auto">
         <p><strong>90%</strong> af alle informationerne der fanges af den menneskellige hjerne er i form af visuelle content</p>
       </div>
     </div>
@@ -90,7 +95,7 @@
 
 
 <div class="container website flex-direction">
-            <div class=" txt h1 h2 txt-box website-txt">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="500" class=" txt h1 h2 txt-box website-txt">
               <div>
                   <h3>Bruge for et nyt webside? eller opdateringer på din nuværende?</h3>
                   <h1>Det kan jeg sørge for!</h1>
@@ -105,19 +110,19 @@
               </div>
             </div>
 
-            <div class="code-lang image"><img src="../../../billeder/code lang ilustration b.jpg" width="100%" height="auto"></div>
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="500" class="code-lang image"><img src="../../../billeder/code lang ilustration b.jpg" width="100%" height="auto"></div>
 </div>
 
-<div class=" om-mig">
-  <div class="bussines-card"><img src="../../../billeder/Bussines card.jpg" width="100%" height="100%"></div>
-  <div class="om-mig-txt h1 h2">
-    <h1>Behdin Bagheri</h1>
-    <p>Jeg har bået i Danmark siden 2009. Efter mit gymnasiale uddannelse som var HHX, 
+<div class=" om-mig first-mode">
+  <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="400" class="bussines-card"><img src="../../../billeder/Bussines card.jpg" width="100%" height="100%"></div>
+  <div class="om-mig-txt h1 h2 first-mode">
+    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-offset="400">Behdin Bagheri</h1>
+    <p data-aos="fade-left" data-aos-duration="1000" data-aos-offset="400">Jeg har bået i Danmark siden 2009. Efter mit gymnasiale uddannelse som var HHX, 
       valgt jeg at studere videre på Multimediedesigner uddannelsen.
        Inden for mit uddannelse, intressere mig mest for at arbejde med 
        <strong>content creation</strong>, <strong>webdesign</strong> og <strong>webudvikling</strong>.
     </p>
-    <p>Content creation giver liv og styrke til et hvert virksomhed. Jeg synes at <strong>relevant og nyt content</strong> er
+    <p data-aos="fade-left" data-aos-duration="1000" data-aos-offset="400">Content creation giver liv og styrke til et hvert virksomhed. <strong>relevant og nyt content</strong> er
       ligeså vigtigt for en virksomhed, som <strong>blod for mennesket</strong>. Blod skal være frisk og altid køre rundt i kroppen på den rigtig
       måde for at mennesket kan være sund og rask, og det samme gælder for en virksomhed som skal have nyt og frisk content de kan 
       <strong>markedsføre</strong> sig med. 
@@ -134,21 +139,22 @@
 <script>
 
 export default {
+  
   name: 'Home',
   components: {
     
   },
-  data() {
-    return {
-     
-    };
-  },
+  props: ['dark']
+    
+  
 }
 </script>
 
 <style lang="scss" scoped>
 
 @import '../css/style.scss';
+
+
 
   .img{
     background-image: url('../assets/startimg.png');
@@ -224,22 +230,6 @@ export default {
         margin: 30px 0 0 0;
     }
 
-    .btn{
-      background: #24353F;
-      color: #D9C4A9;
-      border-radius: 50px;
-      width: 220px;
-      height: 60px;
-      border: none;
-      font-size: 18px;
-      font-weight: bold;
-    }
-    .btn:hover{
-      background: transparent;
-      border: solid 3px #24353F;
-      color: #24353F;
-    }
-
 .contain {
   display: flex;
   flex-direction: column;
@@ -263,7 +253,7 @@ export default {
   }
 
   .website{
-    padding-top: 110px;
+    padding: 110px 0;
     .btn{
       margin-top: 177px;
     }
@@ -282,7 +272,7 @@ export default {
       width: 562px;
   }
   .om-mig{
-    padding: 110px 0;
+    margin: 0 0 110px 0;
     height: 467px;
     display: flex;
    .om-mig-txt{
@@ -322,14 +312,7 @@ export default {
       padding-top: 22vw;
     }
   }
-  .btn-box{
-      .btn{
-      width: 180px;
-      height: 50px;
-      font-size: 16px;
-      margin-top: 30px;
-    }
-  }
+  
 }
 
 @media only screen and (max-width: 1120px){
@@ -386,13 +369,6 @@ export default {
       }
     }
   }
-  .btn-box{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding-bottom: 20px;
-    width: 800px;
-    }
     #facts-btn{
       align-items: center;
       justify-content: center;
@@ -451,13 +427,6 @@ export default {
     margin: 20px 15% 100px 15% !important;
     width: 73% !important;
   }
-  .btn-box{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start !important;
-    padding-bottom: 5px;
-    width: 680px;
-    }
     .om-mig{
       flex-direction: column;
     }

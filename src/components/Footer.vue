@@ -17,10 +17,10 @@
             <div class="social-medier">
               <b>Find mig på det sociale medier:</b>
               <div class="footer-icon">
-                <img id="first-icon" src="../../../icons/linkedin(footer).svg" width="23px" height="23px">
-                <img class="" src="../../../icons/facebook(footer).svg" width="23px" height="23px">
-                <img class="" src="../../../icons/instagram(footer).svg" width="23px" height="auto">
-                <img class="" src="../../../icons/youtube(footer).svg" width="30px" height="auto">
+                <a href="https://www.linkedin.com/in/behdin-bagheri-21b893196/" target="_blank"><img id="first-icon" class="icon" src="../assets/icons/linkedin(footer).svg" width="23px" height="23px"></a>
+                <a href="https://www.facebook.com/behdin.bagheri/" target="_blank"><img class="icon" src="../assets/icons/facebook-footer.svg" width="23px" height="23px"></a>
+                <a href="https://www.instagram.com/behdin_b/" target="_blank"><img class="icon" src="../assets/icons/instagram-footer.svg" width="23px" height="auto"></a>
+                <a href="https://www.youtube.com/channel/UCz2gJot02504RDa1tsBR1LA" target="_blank"><img class="icon" src="../assets/icons/youtube(footer).svg" width="30px" height="auto"></a>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@
     .footer{
     background: #24353F;
     height: 350px;
-    padding: 50px 15%;
+    padding: 50px 12%;
     color: #D9C4A9;
     .line{
         content: "";
@@ -74,6 +74,15 @@
           }
         }
       }
+    }
+    .icon:hover{
+      opacity: 0.5;
+    }
+    .icon:visited{
+    opacity: 0.5;
+    }
+    .icon:active{
+    opacity: 0.5;
     }
   }
 
