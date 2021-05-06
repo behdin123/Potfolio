@@ -35,7 +35,7 @@
       <div class="txt">
         <p>De <strong>sociale medier</strong> er fyldt med <strong>potentielle kunder</strong> for din virksomhed og produkter. 
           Man kan sige at de sociale medier er kundernes <strong>første destination</strong>, hvor de bruger meget af 
-          deres hverdags tid på. At vælge de rigtig <strong>strategier</strong> på de sociale medier er meget vigtigt, 
+          deres hverdags tid på. At vælge de rigtige <strong>strategier</strong> på de sociale medier er meget vigtigt, 
           for at kunne tiltrække de potentielle kunder til at blandt andet <strong>besøge din website</strong> og fortage 
           køb af dine produkter eller services. At producere <strong>de rigtige content</strong> og til den rette målgruppe 
           er blandt de vigtige felter inden for den professionelle <strong>SoMe verdenen</strong>.

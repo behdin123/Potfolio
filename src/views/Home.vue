@@ -15,9 +15,9 @@
             <h3 data-aos="fade-up" data-aos-duration="1000" >Hvad betyder det helt præcist?</h3>
             <h1 data-aos="fade-up" data-aos-duration="1000" >Multimediedesigner</h1>
             <p  data-aos="fade-up" data-aos-duration="1000" >Som en Multimediedesigner er jeg i stand til at komme ind på 
-              alle niveauer af digital design, heriblandt webløsninger <br>
-              <strong>digitale brugeroplevelser (UX)</strong>, <strong>indholdsproduktion (content creation)</strong> <br>
-              til digitale medier, <strong>frontend webudvikling</strong> samt <strong>ideudvikling og projektmanagement</strong> 
+              alle niveauer af digital design, heriblandt webløsninger
+              <strong>digitale brugeroplevelser (UX)</strong>, indholdsproduktion til digitale medier <strong>(content creation),</strong>
+              <strong>frontend webudvikling</strong> samt <strong>ideudvikling og projektmanagement.</strong> 
             </p>
           <div id="uix" class="container">
               <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" class="ui-ux ui">
@@ -26,8 +26,8 @@
                   <div><h2>User Interface (UI)</h2></div>
                   <div class="ui-x-txt">
                       <p>Skærme, websider, og visuelle ellementer som knapper og 
-                      ikons som skaber <strong>interaktion</strong> mellem bruger og et produkt eller 
-                      service befinder sig under <strong>UI kategorien</strong>
+                      ikoner, som skaber <strong>interaktion</strong> mellem bruger og et produkt eller 
+                      service befinder sig under <strong>UI kategorien.</strong>
                       </p>
                   </div>
               </div>
@@ -38,7 +38,7 @@
                   <div class="ui-x-txt">
                           <p>At opfylde <strong>brugerens behov</strong>, er det vigtigste inden for 
                           <strong>UX verdenen</strong>. Kort sagt er det nødvendigt at skabe <strong>positive oplevelser</strong> for brugerne 
-                          der holder dem <strong>loyal</strong> over for et produktet eller virksomheden
+                          der holder dem <strong>loyal</strong> over for et produkt eller virksomheden.
                           </p>
                   </div>
               </div>
@@ -51,15 +51,15 @@
               <div>
                   <h3>Hvordan kan jeg skabe opmærksomhed og resultat for dig og din virksomhed?</h3>
                   <h1>Den gyldne trekant!</h1>
-                  <p>Hvor stor del af din <strong>kunder</strong> bruger de <strong>sociale medier</strong> dagligt? <br>
-                    Hvordan finder din kunder frem til dit <strong>webside</strong>? <br>
+                  <p>Hvor stor del af dine <strong>kunder</strong> bruger de <strong>sociale medier</strong> dagligt? <br>
+                    Hvordan finder dine kunder frem til dit <strong>webside</strong>? <br>
                     Hvor vigtigt er <strong>video content</strong> for din målgruppe? <br>
                   </p>
                   <p class="txt-two">Jeg har gennem min personlig erfaring fundet frem til 
                     det jeg kalder <br> 
                     <strong>det gyldne trekant</strong>, som består af 3 afgørende 
                     punkter der kan <br> 
-                    medbringe succes til enhver virksomhed 
+                    medbringe succes til enhver virksomhed. 
                   </p>
               </div>
               <div class="btn-box">
@@ -67,7 +67,7 @@
               </div>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="450" class="gyldne-trekant image"><img src="../../../billeder/gyldne-trekant-(fin).jpg" width="100%" height="auto"></div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="450" class="gyldne-trekant image"><img src="../../../billeder/gyldne-trekant-(fin).jpg" width="100%" height="auto"></div>
     </div>
 
 <div class="contain first-mode">
@@ -102,7 +102,7 @@
                   <p class="txt-two">Gennem min uddannelse har jeg arbejdet med <strong>web-design</strong> og <strong>webudvikling</strong>, 
                     hvor jeg er i stand til at <strong>designe</strong> og <strong>strukturer</strong> en webside præcis som du ønsker det. <br> <br>
                     Ved hjælp af de forskellige kodesprog kan jeg udover design og strukturer også implementer 
-                    forskellige ellementer der øger <strong>interaktionen</strong> mellem brugerne og websiden.
+                    forskellige ellementer, der øger <strong>interaktionen</strong> mellem brugerne og websiden.
                   </p>
               </div>
               <div class="btn-box">
@@ -110,21 +110,21 @@
               </div>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="500" class="code-lang image"><img src="../../../billeder/code lang ilustration b.jpg" width="100%" height="auto"></div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="500" class="code-lang image"><img src="../../../billeder/code lang ilustration b.jpg" width="100%" height="auto"></div>
 </div>
 
 <div class=" om-mig first-mode">
-  <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="400" class="bussines-card"><img src="../../../billeder/Bussines card.jpg" width="100%" height="100%"></div>
+  <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="400" class="bussines-card"><img src="../assets/Artworks/large/visitcard (artwork).png" width="100%" height="100%"></div>
   <div class="om-mig-txt h1 h2 first-mode">
-    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-offset="400">Behdin Bagheri</h1>
-    <p data-aos="fade-left" data-aos-duration="1000" data-aos-offset="400">Jeg har bået i Danmark siden 2009. Efter mit gymnasiale uddannelse som var HHX, 
-      valgt jeg at studere videre på Multimediedesigner uddannelsen.
-       Inden for mit uddannelse, intressere mig mest for at arbejde med 
+    <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="400">Behdin Bagheri</h1>
+    <p data-aos="fade-up" data-aos-duration="1000" data-aos-offset="400">Jeg har bået i Danmark siden 2009. Efter mit gymnasiale uddannelse, som var HHX, 
+      valgte jeg at studere videre på Multimediedesigner uddannelsen.
+       Inden for mit uddannelse, intresserer mig mest for at arbejde med 
        <strong>content creation</strong>, <strong>webdesign</strong> og <strong>webudvikling</strong>.
     </p>
-    <p data-aos="fade-left" data-aos-duration="1000" data-aos-offset="400">Content creation giver liv og styrke til et hvert virksomhed. <strong>relevant og nyt content</strong> er
-      ligeså vigtigt for en virksomhed, som <strong>blod for mennesket</strong>. Blod skal være frisk og altid køre rundt i kroppen på den rigtig
-      måde for at mennesket kan være sund og rask, og det samme gælder for en virksomhed som skal have nyt og frisk content de kan 
+    <p data-aos="fade-up" data-aos-duration="1000" data-aos-offset="400">Content creation giver liv og styrke til ethvert virksomhed. <strong>Relevant og nyt content</strong> er
+      ligeså vigtigt for en virksomhed, som <strong>blod for mennesket</strong>. Blod skal altid være frisk og  køre rundt i kroppen på den rigtige
+      måde for at mennesket kan være sund og rask, og det samme gælder for en virksomhed, som skal have nyt og frisk content de kan 
       <strong>markedsføre</strong> sig med. 
     </p>
   </div>
@@ -272,7 +272,7 @@ export default {
       width: 562px;
   }
   .om-mig{
-    margin: 0 0 110px 0;
+    margin: 0 0 124px 0;
     height: 467px;
     display: flex;
    .om-mig-txt{
@@ -431,7 +431,7 @@ export default {
       flex-direction: column;
     }
     .om-mig-txt{
-      width: 88% !important;
+      width: auto !important;
     }
 }
 

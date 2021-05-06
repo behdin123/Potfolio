@@ -15,7 +15,7 @@
               <b>+45 53 52 52 39</b>
             </div>
             <div class="social-medier">
-              <b>Find mig på det sociale medier:</b>
+              <b>Find mig på de sociale medier:</b>
               <div class="footer-icon">
                 <a href="https://www.linkedin.com/in/behdin-bagheri-21b893196/" target="_blank"><img id="first-icon" class="icon" src="../assets/icons/linkedin(footer).svg" width="23px" height="23px"></a>
                 <a href="https://www.facebook.com/behdin.bagheri/" target="_blank"><img class="icon" src="../assets/icons/facebook-footer.svg" width="23px" height="23px"></a>

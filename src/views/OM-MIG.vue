@@ -16,7 +16,7 @@
                     <img v-else src="../assets/cv dark-version.png" width="100%" height="auto">
                 </div>
                     <div class="btn-box">
-                       <a href="/files/ShortmovieRapport.pdf" target="_blank"><button class="btn">Dowenload CV</button></a>
+                       <a href="/files/Behdin Bagheri CV.pdf" target="_blank"><button class="btn">Download CV</button></a>
                     </div>
             </div>
         </div>
@@ -131,8 +131,11 @@ main{
         width: 80vw;
         height: 50vh !important;
     }
+    .cv-dowenload-box{
+        margin: 25px 0 !important;
+    }
     .cv-box{
-        width: 60vw !important;
+        width: 35vw !important;
     }
     .om-mig-txt{
         height: 225x    px  !important;

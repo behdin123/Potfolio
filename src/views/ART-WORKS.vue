@@ -99,7 +99,7 @@
 
         <div class="title gallery-gray first-mode">
             <div class="title-box">
-                <h1>Photoghrafy & Billedbehandling</h1>
+                <h1>Photografy & Billedbehandling</h1>
             </div>
 
             <div class="gallery webdeign-box">

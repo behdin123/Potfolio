@@ -84,7 +84,7 @@ export default {
              setTimeout(() => {
               nav.style
               .setProperty("display", "none", "important");
-             }, 2000);
+             }, 1000);
           }
         });
 
@@ -92,6 +92,9 @@ export default {
         navLinks.forEach(n => {
           n.addEventListener("click", () => {
             nav.classList.toggle("show");
+              if (nav.classList.toggle("show")) {
+              nav.style.setProperty("display", "none", "important");
+            }
           })
         });
    }
@@ -147,6 +150,7 @@ export default {
       }
       .toggle-menu{
         margin-right: 0;
+        cursor: pointer;
       }
       .facebook{
           margin: 0 15px;
@@ -267,20 +271,17 @@ input:checked + .slider:before {
     padding: 80px 0 0 0;
     background: #24353F !important;
     animation-name: toggleMenu;
-    animation-duration: 2s;
+    animation-duration: 1s;
   }
 
 
   .show{
-    display: flex !important;
     animation-name: toggleMenu;
-    animation-duration: 2s;
+    animation-duration: 1s;
   }
   .end{
-    
     animation-name: toggleMenuEnd;
-    animation-duration: 2s;
-    display: flex !important ;
+    animation-duration: 1s;
   }
 
   @keyframes toggleMenu {
