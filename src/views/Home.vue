@@ -31,7 +31,7 @@
                       </p>
                   </div>
               </div>
-              <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" class="ui-ux ux">
+              <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="300" class="ui-ux ux">
                   <div v-if="dark == false || dark == null"><img src="../assets/icons/ux.svg" width="80px" height="auto"></div>
                   <div v-else><img src="../assets/icons/ux-dark-version.svg" width="80px" height="auto"></div>
                   <div><h2>User Experience (UX)</h2></div>
@@ -47,7 +47,7 @@
     </div>
 
     <div class="container min-concept flex-direction second-mode">
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="450" class="txt h1 h2 txt-box">
+            <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" class="txt h1 h2 txt-box">
               <div>
                   <h3>Hvordan kan jeg skabe opmærksomhed og resultat for dig og din virksomhed?</h3>
                   <h1>Den gyldne trekant!</h1>
@@ -63,11 +63,11 @@
                   </p>
               </div>
               <div class="btn-box">
-                  <router-link to="/MIN CONCEPT"><button class="btn">Se mere</button></router-link>
+                  <router-link to="/MIN-CONCEPT"><button class="btn">Se mere</button></router-link>
               </div>
             </div>
 
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="450" class="gyldne-trekant image"><img src="../../../billeder/gyldne-trekant-(fin).jpg" width="100%" height="auto"></div>
+            <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" class="gyldne-trekant image"><img src="../../../billeder/gyldne-trekant-(fin).jpg" width="100%" height="auto"></div>
     </div>
 
 <div class="contain first-mode">
@@ -89,13 +89,13 @@
       </div>
     </div>
     <div class="btn-box" id="facts-btn">
-       <router-link to="/MIN CONCEPT"><button class="btn">Se mere</button></router-link>
+       <router-link to="/MIN-CONCEPT"><button class="btn">Se mere</button></router-link>
     </div>
 </div>
 
 
 <div class="container website flex-direction">
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="500" class=" txt h1 h2 txt-box website-txt">
+            <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" class=" txt h1 h2 txt-box website-txt">
               <div>
                   <h3>Bruge for et nyt webside? eller opdateringer på din nuværende?</h3>
                   <h1>Det kan jeg sørge for!</h1>
@@ -106,23 +106,23 @@
                   </p>
               </div>
               <div class="btn-box">
-                  <router-link to="/MIN CONCEPT"><button class="btn">Se mere</button></router-link>
+                  <router-link to="/MIN-CONCEPT"><button class="btn">Se mere</button></router-link>
               </div>
             </div>
 
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="500" class="code-lang image"><img src="../../../billeder/code lang ilustration b.jpg" width="100%" height="auto"></div>
+            <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" class="code-lang image"><img src="../../../billeder/code lang ilustration b.jpg" width="100%" height="auto"></div>
 </div>
 
 <div class=" om-mig first-mode">
-  <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="400" class="bussines-card"><img src="../assets/Artworks/large/visitcard (artwork).png" width="100%" height="100%"></div>
+  <div data-aos="fade-right" data-aos-duration="2000" data-aos-offset="300" class="bussines-card"><img src="../assets/Artworks/large/visitcard (artwork).png" width="100%" height="100%"></div>
   <div class="om-mig-txt h1 h2 first-mode">
-    <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="400">Behdin Bagheri</h1>
-    <p data-aos="fade-up" data-aos-duration="1000" data-aos-offset="400">Jeg har bået i Danmark siden 2009. Efter mit gymnasiale uddannelse, som var HHX, 
+    <h1 data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300">Behdin Bagheri</h1>
+    <p data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300">Jeg har bået i Danmark siden 2009. Efter mit gymnasiale uddannelse, som var HHX, 
       valgte jeg at studere videre på Multimediedesigner uddannelsen.
        Inden for mit uddannelse, intresserer mig mest for at arbejde med 
        <strong>content creation</strong>, <strong>webdesign</strong> og <strong>webudvikling</strong>.
     </p>
-    <p data-aos="fade-up" data-aos-duration="1000" data-aos-offset="400">Content creation giver liv og styrke til ethvert virksomhed. <strong>Relevant og nyt content</strong> er
+    <p data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300">Content creation giver liv og styrke til ethvert virksomhed. <strong>Relevant og nyt content</strong> er
       ligeså vigtigt for en virksomhed, som <strong>blod for mennesket</strong>. Blod skal altid være frisk og  køre rundt i kroppen på den rigtige
       måde for at mennesket kan være sund og rask, og det samme gælder for en virksomhed, som skal have nyt og frisk content de kan 
       <strong>markedsføre</strong> sig med. 
