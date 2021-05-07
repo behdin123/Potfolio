@@ -129,10 +129,8 @@ export default {
     display: none;
   }
 
-  a:after{
-    content: "";
-    position: absolute;
-    background-color: white;
+  a:hover{
+    color: #D9C4A9 !important;
   }
   
   .navbar-others{

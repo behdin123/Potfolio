@@ -158,6 +158,10 @@ body{
     .footer{
       background: #121a1f;
     }
+
+    a:hover{
+        color: #24353F !important;
+      }
     @media only screen and (max-width: 780px){
       #image-dark-version-home{
         background-image: url('./assets/startimg(small-version) dark-version.png') !important;
