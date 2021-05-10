@@ -206,11 +206,10 @@ h1 {
 }
 
 .title {
-  padding: 110px 13% 0 13%;
+  padding: 110px 12% 0 12%;
   .title-box {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-bottom: 80px;
     b{
         margin-top: 25px;
@@ -302,10 +301,6 @@ h1 {
   }
   .xd-works{
       flex-direction: column-reverse;
-      width: 100vw !important;
-      .xd-img{
-          width: 100vw;
-      }
       img{
           width: 74vw;
       }
@@ -337,7 +332,7 @@ h1 {
             width: 80vw !important;
         }
     .img2{
-        width: 80vw !important;
+        width: 76vw !important;
     }
 }
 

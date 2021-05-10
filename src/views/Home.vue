@@ -72,17 +72,17 @@
 
 <div class="contain first-mode">
     <div class="informations h1">
-      <div  data-aos="fade-up" data-aos-duration="2000" data-aos-offset="400" class="info">
+      <div  data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" class="info">
         <img v-if="dark == false || dark == null" src="../assets/procent.png" width="150px" height="auto">
         <img v-else src="../assets/procent dark-version.png" width="150px" height="auto">
         <p>Af den danske befolkning mellem 16-89 år <strong>bruger de sociale medier</strong></p>
       </div>
-      <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="400" class="info">
+      <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" class="info">
         <img v-if="dark == false || dark == null" src="../assets/SoMe.png" width="150px" height="auto">
          <img v-else src="../assets/SoMe dark-version.png" width="150px" height="auto">
         <p><strong>SEO og de Sociale medier</strong> er de 2 vigtigste ellementer for at få flere besøgende på din webside</p>
       </div>
-      <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="400" class="info">
+      <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" class="info">
         <img v-if="dark == false || dark == null" src="../assets/Video.png" width="150px" height="auto">
         <img v-else src="../assets/Video-dark-version.png" width="150px" height="auto">
         <p><strong>90%</strong> af alle informationerne der fanges af den menneskellige hjerne er i form af visuelle content</p>

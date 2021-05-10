@@ -89,14 +89,23 @@ export default {
         });
 
         const navLinks = document.querySelectorAll(".justify a");
+        const logo = document.querySelector(".logo");
         navLinks.forEach(n => {
           n.addEventListener("click", () => {
             nav.classList.toggle("show");
               if (nav.classList.toggle("show")) {
+              nav.classList.toggle("show");
               nav.style.setProperty("display", "none", "important");
             }
           })
         });
+          logo.addEventListener("click", () => {
+            nav.classList.toggle("show");
+              if (nav.classList.toggle("show")) {
+              nav.classList.toggle("show");
+              nav.style.setProperty("display", "none", "important");
+            }
+          });
    }
   
 }

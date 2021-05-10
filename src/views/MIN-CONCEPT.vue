@@ -23,7 +23,7 @@
           virksomheden og kunderne. 
         </p>
       </div>
-      <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="50">
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="50">
         <img  v-if="dark == false || dark == null" src="../assets/icons/video.svg" width="200px" height="auto">
         <img v-else src="../assets/icons/video dark-version.svg" width="200px" height="auto">
       </div>
@@ -41,7 +41,7 @@
           er blandt de vigtige felter inden for den professionelle <strong>SoMe verdenen</strong>.
         </p>
       </div>
-      <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="50">
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="50">
         <img v-if="dark == false || dark == null" src="../assets/icons/SoMe.svg" width="200px" height="auto">
         <img v-else src="../assets/icons/SoMe dark-version.svg" width="200px" height="auto">
       </div>
@@ -58,7 +58,7 @@
           af hjemmesiden og med <strong>overskuelig indhold</strong> og mange andre ting som skal være med.
         </p>
       </div>
-      <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="50">
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="50">
         <img v-if="dark == false || dark == null" src="../assets/icons/website.svg" width="200px" height="auto">
         <img v-else src="../assets/icons/website dark-version.svg" width="200px" height="auto">
       </div>
@@ -177,7 +177,7 @@ export default {
         }
     }
     .gylden-trekant-img{
-      width: 553px;
+      width: 100%;
     }
 }
 

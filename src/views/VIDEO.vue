@@ -6,7 +6,7 @@
 
     <div class="container gray  first-mode">
             <div class="txt h1 h2">
-              <h3>Har du bruge for sprøde og kvalitets videoer til at <br> tiltrække en større del af din målgruppe?</h3>
+              <h3>Har du bruge for sprøde og kvalitets videoer til at tiltrække en større del af din målgruppe?</h3>
               <h1>Fra optagelser til færdig produktion</h1>
               <p>Har du lyst til at få større opmærksomhed omkring dit brand eller produkter, 
                  så skal du stærkt overveje video content ind i dinne strategier.
@@ -22,7 +22,7 @@
             </div>
             <div class="img-box">
                 <div class="gyldne-trekant">
-                    <img data-aos="fade-left"  data-aos-duration="2000" src="../assets/premiere after effect_.png" width="100%" height="auto">
+                    <img data-aos="fade-up"  data-aos-duration="1000" src="../assets/premiere after effect_.png" width="100%" height="auto">
                 </div>
             </div>
     </div>
