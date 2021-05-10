@@ -211,6 +211,7 @@ h1 {
     display: flex;
     flex-direction: column;
     margin-bottom: 80px;
+    align-items: center;
     b{
         margin-top: 25px;
     }
@@ -292,6 +293,12 @@ h1 {
         .poster{
                 width: 80vw;
         }
+
+    .title {
+        .title-box {
+            align-items: flex-start !important;
+        }
+    }
 }
 
 

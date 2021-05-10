@@ -4,7 +4,7 @@
         <div class="om-mig-txt">
             <div>
                 <div class="h1">
-                    <h1>Hvem er jeg?</h1>
+                    <h1 data-aos="fade-right" data-aos-duration="3000">Hvem er jeg?</h1>
                 </div>
                 <div class="h1">
                     <p>Du kan se mit <strong>video CV</strong> eller <strong>dowenloade</strong> mit CV som PDF for at lærer mig bedre at kende</p>

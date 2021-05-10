@@ -47,7 +47,7 @@
     </div>
 
     <div class="container min-concept flex-direction second-mode">
-            <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" class="txt h1 h2 txt-box">
+            <div data-aos="fade-right" data-aos-duration="2000" data-aos-offset="300" class="txt h1 h2 txt-box">
               <div>
                   <h3>Hvordan kan jeg skabe opmærksomhed og resultat for dig og din virksomhed?</h3>
                   <h1>Den gyldne trekant!</h1>
@@ -95,7 +95,7 @@
 
 
 <div class="container website flex-direction">
-            <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300" class=" txt h1 h2 txt-box website-txt">
+            <div data-aos="fade-right" data-aos-duration="2000" data-aos-offset="300" class=" txt h1 h2 txt-box website-txt">
               <div>
                   <h3>Bruge for et nyt webside? eller opdateringer på din nuværende?</h3>
                   <h1>Det kan jeg sørge for!</h1>

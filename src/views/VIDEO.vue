@@ -1,7 +1,7 @@
 <template>
 <div class="VIDEO">
     <div id="video-dark-version-image" class="bg-img img">
-      <h1>Video Produktion</h1>
+      <h1 data-aos="fade-right" data-aos-duration="3000">Video Produktion</h1>
     </div>
 
     <div class="container gray  first-mode">

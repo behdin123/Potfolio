@@ -3,7 +3,7 @@
 
 
     <div id="min-concept-darkversion-image" class="bg-img img">
-      <h1>Den <b>Gyldne</b> Trekant</h1>
+      <h1 data-aos="fade-right" data-aos-duration="3000">Den <b>Gyldne</b> Trekant</h1>
     </div>
     <div class="titel h1 h2">
       <div>
